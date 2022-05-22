@@ -31,15 +31,6 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   }
 };
 
-// const newContact = {
-//   name: "Jora Jora",
-//   email: "jora.jora@jora.co.uk",
-//   phone: "(902) 914-3992",
-// };
-//invokeAction({ action: "list" });
-//invokeAction({ action: "removeContact", id: "1" });
-//invokeAction({ action: "getContact", id: "1" });
-//invokeAction({action:"addContact", data: newContact});
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
